@@ -95,11 +95,11 @@ module.exports = {
       opp_pf: {
         type: Sequelize.FLOAT
       },
-      created_at: {
+      createdAt: {
         allowNull: true,
         type: Sequelize.DATE
       },
-      updated_at: {
+      updatedAt: {
         allowNull: true,
         type: Sequelize.DATE
       }
