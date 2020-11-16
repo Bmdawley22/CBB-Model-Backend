@@ -1,4 +1,5 @@
 module.exports = {
     auth: require('./auth'),
-    stats: require('./stats')
+    stats: require('./stats'),
+    models: require('./models')
 }

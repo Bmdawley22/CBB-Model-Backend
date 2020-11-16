@@ -38,6 +38,7 @@ const verifyToken = (req, res, next) => {
 app.use('/auth', routes.auth);
 app.use('/auth/verify', verifyToken, routes.auth);
 app.use('/stats', routes.stats)
+app.use('/models', routes.models)
 
 
 app.listen(process.env.PORT, () => {
