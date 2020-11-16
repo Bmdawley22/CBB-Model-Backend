@@ -9,6 +9,7 @@ const getAllOffStats = (req, res) => {
         res.status(constants.SUCCESS).json(offStats)
     })
     .catch(err => {
+        console.log(err)
         res.status(constants.INTERNAL_SERVER_ERROR).send(`ERROR: ${err}`);
     })
 }
