@@ -26,23 +26,7 @@ module.exports = {
         stl: 0,
         blk: 0,
         tov: 0,
-        pf: 0,
-        pts_all: 0,
-        fg_all: 0,
-        fga_all: 0,
-        fg_perc_all: 0,
-        three_pt_all: 0,
-        three_pta_all: 0,
-        three_pt_perc_all: 0,
-        ft_all: 0,
-        fta_all: 0,
-        orb_all: 0,
-        trb_all: 0,
-        asst_all: 0,
-        stl_all: 0,
-        blk_all: 0,
-        opp_tov: 0,
-        opp_pf: 0
+        pf: 0
       }
     ], {});
   },

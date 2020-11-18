@@ -77,54 +77,6 @@ module.exports = {
       pf: {
         type: Sequelize.INTEGER
       },
-      pts_all: {
-        type: Sequelize.INTEGER
-      },
-      fg_all: {
-        type: Sequelize.INTEGER
-      },
-      fga_all: {
-        type: Sequelize.INTEGER
-      },
-      fg_perc_all: {
-        type: Sequelize.INTEGER
-      },
-      three_pt_all: {
-        type: Sequelize.INTEGER
-      },
-      three_pta_all: {
-        type: Sequelize.INTEGER
-      },
-      three_pt_perc_all: {
-        type: Sequelize.INTEGER
-      },
-      ft_all: {
-        type: Sequelize.INTEGER
-      },
-      fta_all: {
-        type: Sequelize.INTEGER
-      },
-      orb_all: {
-        type: Sequelize.INTEGER
-      },
-      trb_all: {
-        type: Sequelize.INTEGER
-      },
-      asst_all: {
-        type: Sequelize.INTEGER
-      },
-      stl_all: {
-        type: Sequelize.INTEGER
-      },
-      blk_all: {
-        type: Sequelize.INTEGER
-      },
-      opp_tov: {
-        type: Sequelize.INTEGER
-      },
-      opp_pf: {
-        type: Sequelize.INTEGER
-      },
       createdAt: {
         allowNull: true,
         type: Sequelize.DATE
